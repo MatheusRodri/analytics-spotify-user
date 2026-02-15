@@ -2,6 +2,7 @@
 
 O projeto se resume em um dashboard com dados da minha conta do Spotify ( Replique com  suas informções e veja a magia )
 Até o momento em que escrevo esse readme, ainda não tenho uma ideia do dashboard final. 
+Link do dashboard: [Spotify Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZTRiMDYxMTktZGYwMC00MzAyLWI5MWQtN2JhYmExY2RmOWVlIiwidCI6IjY3YmE4MGMxLTAzZTUtNDhkMi1hZTIwLWRiZWJiNzNjNWUyNyJ9)
 
 ---
 
