@@ -1,4 +1,4 @@
-# 🚀 Data User Spotify
+# 🎧 Spotify Data Monitor & Analytics
 
 O projeto se resume em um dashboard com dados da minha conta do Spotify ( Replique com  suas informções e veja a magia )
 Até o momento em que escrevo esse readme, ainda não tenho uma ideia do dashboard final. 
@@ -42,3 +42,46 @@ Siga os passos abaixo para rodar o projeto:
     - Entre no arquivo arquivo `main`
     - Execute o arquivo por completo
 - PowerBI
+
+# TITLE
+
+## 📋 Summary
+
+- [📖 About project](#about-project)
+- [🏗️ Architecture](#architecture)
+- [🛠️ Technologies used](#technologies-used)
+- [📋 Requirements](#requirements)
+- [🚀 How to run](#how-to-run)
+- [👨‍💻 Authors](#authors)
+
+## 📖 About Project <a id="about-project"></a>
+
+About the project
+
+## 🏗️ Achitecture <a id="architecture"></a>
+
+Architecture description
+
+## 🛠️ Technologies used <a id="technologies-used"></a>
+
+- Technology 1
+    - Lib 1
+    - Lib 2
+    - Lib 3
+- Technology 2
+- Technology 3
+
+
+## 📋 Requirements <a id="requirements"></a>
+
+- Requirement 1
+- Requirement 2
+- Requirement 3
+
+## 🚀 How to run <a id="how-to-run"></a>
+
+Instructions to run the project
+
+## 👨‍💻 Authors <a id="authors"></a>
+
+- Author 1
