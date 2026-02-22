@@ -1,8 +1,8 @@
 # 🎧 Spotify Data Monitor & Analytics
 
-🔁 Last Update: 20/02/2026
-📈 Progress: Completed
-🚀 Deploy: [Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZTRiMDYxMTktZGYwMC00MzAyLWI5MWQtN2JhYmExY2RmOWVlIiwidCI6IjY3YmE4MGMxLTAzZTUtNDhkMi1hZTIwLWRiZWJiNzNjNWUyNyJ9)
+- 🔁 Last Update: 22/02/2026
+- 📈 Progress: Completed
+- 🚀 Deploy: [Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZTRiMDYxMTktZGYwMC00MzAyLWI5MWQtN2JhYmExY2RmOWVlIiwidCI6IjY3YmE4MGMxLTAzZTUtNDhkMi1hZTIwLWRiZWJiNzNjNWUyNyJ9)
 
 
 ## 📋 Summary
@@ -20,13 +20,12 @@ The project is a dashboard with data from my Spotify account ( Replicate with yo
 
 ## 🏗️ Achitecture <a id="architecture"></a>
 
-``` mermaid
-graph TD
-    A[Data Collection] --> B[Data Storage]
-    B --> C[Data Processing] 
-    C --> D[Data Visualization]
-
+```mermaid
+graph LR;
+    A[Spotify json files] --> |Union All| B[Write to Bronze table]
+    B --> | Transform | C[Write to Silver table] 
 ```
+
 
 ## 🛠️ Technologies used <a id="technologies-used"></a>
 
@@ -47,9 +46,17 @@ graph TD
 - Request your Spotify data [here](https://www.spotify.com/account/privacy/)
 - Download your Spotify data
 - Clone the project in Databricks
-- Place the files in their respective folders within the "data" folder
-- Open the `main` file
-- Run the file completely
+- Upload the files in separate folder in Volumes
+    - If you not know how upload files, follow the steps:
+        - In the sidebar, click the Workspace icon
+        - Navigate to the directory where you want to create the new folder.
+        - Right-click on the parent folder's name or the main workspace area, and select Create > Folder.
+        - Enter a name for the new folder in the dialog box and press Enter or click outside the field to save it.
+- copy the path of uploaded files
+- Open the `notebooks/00-setup` file
+- Find "REPLACE WITH YOUR OWN PATH" Use `ctrl + f` or `cmd + f`
+- Replace to your path
+- Run the `01-Extration` and `02-Transform` files
 - Open the PowerBI
 - Open the dashboard file
 - In the initial page, click on down arrow below "Transform data"
