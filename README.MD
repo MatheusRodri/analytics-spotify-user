@@ -68,4 +68,4 @@ graph LR;
 
 ## 👨‍💻 Author <a id="authors"></a>
 
-[Matheus Rodrigues](https://www.linkedin.com/in/matheus-rodrigues-mrj/)
+### [Matheus Rodrigues](https://www.linkedin.com/in/matheus-rodrigues-mrj/)
