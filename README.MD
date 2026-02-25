@@ -62,7 +62,7 @@ graph LR;
 - In the initial page, click on down arrow below "Transform data"
 - Select "Edit parameters"
 - Put your Host and Path 
-    - This information is in the final output of the `main` file in databricks
+    - This information is in the `03-BI` notebook ( Run the notebook to capture your Host and Path )
 - Click "Apply changes"
 
 
