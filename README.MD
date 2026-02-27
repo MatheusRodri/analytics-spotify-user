@@ -18,7 +18,7 @@
 
 The project is a dashboard with data from my Spotify account ( Replicate with your information and see the magic ). Here you see how many songs you listened to, your top artists, how many minutes you listened to music, and much more. 
 
-## 🏗️ Achitecture <a id="architecture"></a>
+## 🏗️ Architecture <a id="architecture"></a>
 
 ```mermaid
 graph LR;
