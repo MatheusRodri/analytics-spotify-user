@@ -2,7 +2,7 @@
 
 - 🔁 Last Update: 22/02/2026
 - 📈 Progress: Completed
-- 🚀 Deploy: [Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZTRiMDYxMTktZGYwMC00MzAyLWI5MWQtN2JhYmExY2RmOWVlIiwidCI6IjY3YmE4MGMxLTAzZTUtNDhkMi1hZTIwLWRiZWJiNzNjNWUyNyJ9)
+- 🚀 Deploy: [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOGIzMjI2NWEtNjIxNS00MGYxLTg0MGYtZTkzY2Y4YmQzNGU0IiwidCI6ImU5MDVhOGVjLTdkNGQtNGM4Ny1iNzY4LTdlMzQzNjkyMmVjNiJ9)
 
 
 ## 📋 Summary
