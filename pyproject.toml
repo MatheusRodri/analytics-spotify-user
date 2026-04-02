@@ -1,0 +1,13 @@
+[project]
+name = "analytics-spotify-user"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "delta-spark==3.2.1",
+    "dotenv>=0.9.9",
+    "ipykernel>=7.2.0",
+    "pandas>=3.0.2",
+    "pyspark==3.5.3",
+]
