@@ -1,4 +1,6 @@
 *.json
 *.xlsx
+*.csv
 .venv
-.databricks
+__pycache__/
+.env
