@@ -5,13 +5,14 @@ load_dotenv()
 
 def get_config():
     if "DATABRICKS_RUNTIME_VERSION" in os.environ:
-        # Está rodando no Databricks
+        # Is running in Databricks
         return {
             "environment": "Databricks",
             "name_table_bronze": os.environ.get("NAME_TABLE_BRONZE", "Null"),
+            "name_table_silver": os.environ.get("NAME_TABLE_SILVER", "Null"),
         }
     else:
-        # Está rodando local
+        # Is running locally
         return {
             "environment": "Local",
             # "base_path": os.environ.get("LOCAL_PATH_ORIGIN_VOLUMES", "Null"),
