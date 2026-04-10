@@ -6,6 +6,10 @@ os.environ["PYSPARK_PYTHON"] = sys.executable
 os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
 
 def get_spark(app_name: str = "analytics-spotify-user") -> SparkSession:
+    existing = SparkSession.getActiveSession()
+    if existing:
+        existing.stop()
+    
     return (
         SparkSession.builder
         .master("local[*]")
