@@ -10,6 +10,7 @@ def get_config():
             "environment": "Databricks",
             "name_table_bronze": os.environ.get("NAME_TABLE_BRONZE", "Null"),
             "name_table_silver": os.environ.get("NAME_TABLE_SILVER", "Null"),
+            "name_table_gold": os.environ.get("NAME_TABLE_GOLD", "Null"),
         }
     else:
         # Is running locally
