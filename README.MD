@@ -32,7 +32,7 @@ The project is a dashboard with data from my Spotify account ( Replicate with yo
     - Visual Studio Code or another code editor
     - Python
     - UV
-    - With you need a guide access: [UV and spark installation](https://github.com/MatheusRodri/doc-template-files/tree/main/pyspark)
+    - With you need a guide access: [UV and spark installation](https://github.com/MatheusRodri/doc-template-files/tree/main/pyspark/local)
 - Run in cloud:
     - Databricks
 
